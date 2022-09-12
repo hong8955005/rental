@@ -51,8 +51,8 @@ const Footer = () => {
             <p className="footer__logo-content">
               We specialised in 
     car, van and bus rentals 
-    company or government special events transpotation 
-    weddings transportation 
+    company or government special events transpotation, 
+    weddings transportation,  
     kuching city tour
             </p>
           </Col>
