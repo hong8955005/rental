@@ -50,13 +50,14 @@ const Header = () => {
 
             <Col lg="6" md="6" sm="6">
               <div className="header__top__right d-flex align-items-center justify-content-end gap-3">
-                <Link to="#" className=" d-flex align-items-center gap-1">
+       /*         <Link to="#" className=" d-flex align-items-center gap-1">
                   <i class="ri-login-circle-line"></i> 
                 </Link>
 
                 <Link to="#" className=" d-flex align-items-center gap-1">
                   <i class="ri-user-line"></i> 
                 </Link>
+        */        
               </div>
             </Col>
           </Row>
@@ -87,7 +88,7 @@ const Header = () => {
                   <i class="ri-earth-line"></i>
                 </span>
                 <div className="header__location-content">
-                  <h4>Bangladesh</h4>
+                  <h4>Kuching</h4>
                   <h6>Sarawak, Malaysia</h6>
                 </div>
               </div>
