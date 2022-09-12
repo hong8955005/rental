@@ -43,16 +43,17 @@ const Footer = () => {
                 <Link to="/home" className=" d-flex align-items-center gap-2">
                   <i class="ri-car-line"></i>
                   <span>
-                    Rent Car <br /> Service
+                    MIN <br /> TRANSPORTATION
                   </span>
                 </Link>
               </h1>
             </div>
             <p className="footer__logo-content">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consequuntur, distinctio, itaque reiciendis ab cupiditate harum ex
-              quam veniam, omnis expedita animi quibusdam obcaecati mollitia?
-              Delectus et ad illo recusandae temporibus?
+              We specialised in 
+    car, van and bus rentals 
+    company or government special events transpotation 
+    weddings transportation 
+    kuching city tour
             </p>
           </Col>
 
@@ -71,13 +72,13 @@ const Footer = () => {
 
           <Col lg="3" md="4" sm="6">
             <div className="mb-4">
-              <h5 className="footer__link-title mb-4">Head Office</h5>
-              <p className="office__info">123 Zindabazar, Sylhet, Bangladesh</p>
-              <p className="office__info">Phone: +0995345875365</p>
+              <h5 className="footer__link-title mb-4">Address</h5>
+              <p className="office__info">No 10, Taman Mersing, Lorong 16-b, Jalan Stampin</p>
+              <p className="office__info">Phone: +6017 844 8882</p>
 
-              <p className="office__info">Email: muhib5532@gmail.com</p>
+              <p className="office__info">Email: mintransportation@yahoo.com</p>
 
-              <p className="office__info">Office Time: 10am - 7pm</p>
+              <p className="office__info"></p>
             </div>
           </Col>
 
@@ -98,7 +99,7 @@ const Footer = () => {
             <div className="footer__bottom">
               <p className="section__description d-flex align-items-center justify-content-center gap-1 pt-4">
                 <i class="ri-copyright-line"></i>Copyright {year}, Developed by
-                Muhibur Rahman. All rights reserved.
+                Min Transportation. All rights reserved.
               </p>
             </div>
           </Col>
