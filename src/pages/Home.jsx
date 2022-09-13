@@ -20,6 +20,7 @@ const Home = () => {
       {/* ============= hero section =========== */}
       <section className="p-0 hero__slider-section">
         <HeroSlider />
+         </section>
 {/* =============
         <div className="hero__form">
           <Container>
@@ -37,7 +38,7 @@ const Home = () => {
           </Container>
         </div>
      =========== */}   
-      </section>
+     
       {/* =========== about section ================ */}
       <AboutSection />
       {/* ========== services section ============ */}
