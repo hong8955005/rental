@@ -49,7 +49,11 @@ const BlogDetails = () => {
                 <p className="section__description">{blog.description}</p>
               </div>
 
-              <div className="comment__list mt-5">
+              
+
+{/* ===============
+
+<div className="comment__list mt-5">
                 <h4 className="mb-5">3 Comments</h4>
 
                 <div className="single__comment d-flex gap-3">
@@ -68,8 +72,8 @@ const BlogDetails = () => {
                     </span>
                   </div>
                 </div>
-
-                {/* =============== comment form ============ */}
+============ */}
+                {/* =============== comment form 
                 <div className="leave__comment-form mt-5">
                   <h4>Leave a Comment</h4>
                   <p className="section__description">
@@ -97,6 +101,8 @@ const BlogDetails = () => {
                 </div>
               </div>
             </Col>
+            
+============ */}
 
             <Col lg="4" md="4">
               <div className="recent__post mb-4">
@@ -107,7 +113,7 @@ const BlogDetails = () => {
                   <div className="recent__blog-item d-flex gap-3">
                     <img src={item.imgUrl} alt="" className="w-25 rounded-2" />
                     <h6>
-                      <Link to={`/blogs/${item.title}`}>{blog.title}</Link>
+                      <Link to={`/blogs/${item.title}`}>{item.title}</Link>
                     </h6>
                   </div>
                 </div>
