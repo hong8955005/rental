@@ -22,7 +22,7 @@ const Home = () => {
       <section className="p-0 hero__slider-section">
         =========== */} 
         
-       <section> 
+       <section className="p-0">
         <HeroSlider />
                 </section>
 
