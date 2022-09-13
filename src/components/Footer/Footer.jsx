@@ -5,15 +5,7 @@ import { Link } from "react-router-dom";
 import "../../styles/footer.css";
 
 const quickLinks = [
-  {
-    path: "/about",
-    display: "About",
-  },
-
-  {
-    path: "#",
-    display: "Privacy Policy",
-  },
+ 
 
   {
     path: "/cars",
@@ -37,7 +29,7 @@ const Footer = () => {
     <footer className="footer">
       <Container>
         <Row>
-          <Col lg="4" md="4" sm="12">
+          <Col lg="5" md="3" sm="12">
             <div className="logo footer__logo">
               <h1>
                 <Link to="/home" className=" d-flex align-items-center gap-2">
@@ -57,7 +49,7 @@ const Footer = () => {
             </p>
           </Col>
 
-          <Col lg="2" md="4" sm="6">
+          <Col lg="3" md="3" sm="6">
             <div className="mb-4">
               <h5 className="footer__link-title">Quick Links</h5>
               <ListGroup>
@@ -70,7 +62,7 @@ const Footer = () => {
             </div>
           </Col>
 
-          <Col lg="3" md="4" sm="6">
+          <Col lg="4" md="3" sm="6">
             <div className="mb-4">
               <h5 className="footer__link-title mb-4">Address</h5>
               <p className="office__info">No 10, Taman Mersing, Lorong 16-b, Jalan Stampin, 93350 Kuching, Sarawak</p>
@@ -81,8 +73,8 @@ const Footer = () => {
               <p className="office__info"></p>
             </div>
           </Col>
-
-          <Col lg="3" md="4" sm="12">
+{/* ============ 
+          <Col lg="3" md="3" sm="12">
             <div className="mb-4">
               <h5 className="footer__link-title">Newsletter</h5>
               <p className="section__description">Subscribe our newsletter</p>
@@ -94,7 +86,7 @@ const Footer = () => {
               </div>
             </div>
           </Col>
-
+============ */}    
           <Col lg="12">
             <div className="footer__bottom">
               <p className="section__description d-flex align-items-center justify-content-center gap-1 pt-4">
