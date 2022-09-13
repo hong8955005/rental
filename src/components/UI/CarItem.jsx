@@ -36,7 +36,7 @@ const CarItem = (props) => {
           </button>
 
           <button className=" w-50 car__item-btn car__btn-details">
-            <Link to="/contact">Call Us</Link>
+            <Link to="/contact">017 844 8882</Link>
           </button>
         </div>
       </div>
