@@ -16,21 +16,21 @@ const serviceData = [
   {
     id: 3,
     title: "Breakdown Support",
-    icon: "iconsax-lin-24-support",
+    icon: "ri-24-hours-fill",
     desc: "24-hour breakdown assistance during the rental period should you need any assistance..",
   },
 
   {
     id: 4,
     title: "Trusted Company",
-    icon: "fas-handshake-angle",
+    icon: "ri-thumb-up-fill",
     desc: "MIN Transportation established since 2009.",
   },
 
   {
     id: 5,
     title: "No Hidden Costs",
-    icon: "gmdi-monetization-on-o",
+    icon: "ri-money-dollar-circle-line",
     desc: "Clear price breakdowns, no GST. All inclusive rates.",
   },
 
