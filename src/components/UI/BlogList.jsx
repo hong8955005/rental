@@ -35,7 +35,8 @@ const BlogItem = ({ item }) => {
             Read More
           </Link>
 
-          <div className="blog__time pt-3 mt-3 d-flex align-items-center justify-content-between">
+     {/* =============     
+     <div className="blog__time pt-3 mt-3 d-flex align-items-center justify-content-between">
             <span className="blog__author">
               <i class="ri-user-line"></i> {author}
             </span>
@@ -50,6 +51,8 @@ const BlogItem = ({ item }) => {
               </span>
             </div>
           </div>
+       =========== */}    
+          
         </div>
       </div>
     </Col>
