@@ -17,11 +17,16 @@ import BlogList from "../components/UI/BlogList";
 const Home = () => {
   return (
     <Helmet title="Home">
-      {/* ============= hero section =========== */}
+      {/* ============= hero section
+
       <section className="p-0 hero__slider-section">
+        =========== */} 
+        
+       <section> 
         <HeroSlider />
-         </section>
-{/* =============
+                </section>
+
+ {/* =============  
         <div className="hero__form">
           <Container>
             <Row className="form__row">
@@ -37,7 +42,7 @@ const Home = () => {
             </Row>
           </Container>
         </div>
-     =========== */}   
+     =========== */}  
      
       {/* =========== about section 
       <AboutSection />
