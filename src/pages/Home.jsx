@@ -58,7 +58,7 @@ const Home = () => {
               <h2 className="section__title">Cheap Car Rental in Kuching, Sarawak</h2>
             </Col>
 
-            {carData.slice(0, 6).map((item) => (
+            {carData.slice(0, 27).map((item) => (
               <CarItem item={item} key={item.id} />
             ))}
           </Row>
