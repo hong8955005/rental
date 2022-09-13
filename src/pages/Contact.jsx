@@ -35,16 +35,17 @@ const Contact = () => {
             <Col lg="7" md="7">
               <h6 className="fw-bold mb-4">Get In Touch</h6>
 
-              <Form>
+              <Form method="POST" action="https://formsubmit.co/hong_5005@yahoo.com" enctype="multipart/form-data">
                 <FormGroup className="contact__form">
-                  <Input placeholder="Your Name" type="text" />
+                  <Input name="name"  placeholder="Your Name" type="text" />
                 </FormGroup>
                 <FormGroup className="contact__form">
-                  <Input placeholder="Email" type="email" />
+                  <Input name="email" placeholder="Email" type="email" />
                 </FormGroup>
                 <FormGroup className="contact__form">
                   <textarea
                     rows="5"
+                    name="message"
                     placeholder="Message"
                     className="textarea"
                   ></textarea>
