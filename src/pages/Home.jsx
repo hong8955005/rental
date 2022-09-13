@@ -54,8 +54,8 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg="12" className="text-center mb-5">
-              <h6 className="section__subtitle">Come with</h6>
-              <h2 className="section__title">Hot Offers</h2>
+              <h6 className="section__subtitle">NEED A CAR?</h6>
+              <h2 className="section__title">Cheap Car Rental in Kuching, Sarawak</h2>
             </Col>
 
             {carData.slice(0, 6).map((item) => (
