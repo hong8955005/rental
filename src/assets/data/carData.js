@@ -231,7 +231,7 @@ const carData = [
     id: 14,
     brand: "Tesla",
     rating: 112,
-    carName: "PROTON EXORA CPS",
+    carName: "PROTON EXORA",
     imgUrl: img01,
     model: "MPV",
     price: "7x Passenger",
