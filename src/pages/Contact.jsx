@@ -35,7 +35,7 @@ const Contact = () => {
             <Col lg="7" md="7">
               <h6 className="fw-bold mb-4">Get In Touch</h6>
 
-              <Form method="POST" action="https://formsubmit.co/hong_5005@yahoo.com" enctype="multipart/form-data">
+              <Form method="POST" action="https://formsubmit.co/mintransportation@yahoo.com" enctype="multipart/form-data">
                 <FormGroup className="contact__form">
                   <Input name="name"  placeholder="Your Name" type="text" />
                 </FormGroup>
