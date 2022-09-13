@@ -9,10 +9,14 @@ const navLinks = [
     path: "/home",
     display: "Home",
   },
+  
+{/* ============ 
   {
     path: "/about",
     display: "About",
   },
+============ */}    
+  
   {
     path: "/cars",
     display: "Cars",
