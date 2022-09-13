@@ -7,8 +7,8 @@ const blogData = [
   {
     id: 1,
     title: "DISCOVER KUCHING",
-    author: "Muhib",
-    date: "12 Dec, 2020",
+    author: "Min",
+    date: "12 Dec, 2021",
     time: "9pm",
     imgUrl: img01,
     description:
@@ -20,8 +20,8 @@ const blogData = [
   {
     id: 2,
     title: "MALAYSIA DAY CAR RENTAL PROMO",
-    author: "Muhib",
-    date: "12 Dec, 2020",
+    author: "Min",
+    date: "12 Dec, 2021",
     time: "9pm",
     imgUrl: img02,
     description:
@@ -33,8 +33,8 @@ const blogData = [
   {
     id: 3,
     title: "PICK-UP & DROP-OFF AT KUCHING AIRPORT",
-    author: "Muhib",
-    date: "12 Dec, 2020",
+    author: "Min",
+    date: "12 Dec, 2021",
     time: "9pm",
     imgUrl: img03,
     description:
